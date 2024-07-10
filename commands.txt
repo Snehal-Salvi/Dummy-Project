@@ -1,0 +1,38 @@
+Created a folder called Demo_Project.
+Open Demo_Project in VS code and create 2 folder frontend and backend.
+Open github create new repository.
+In Demo_Project open integrated terminal and intitialized git repo.
+**********************************************************************
+
+choose frontend folder open integrated terminal (cd frontend)
+and run command: npx create-react-app .
+
+choose backend folder open integrated terminal (cd backend)
+and run command: npm init -y 
+                 npm i express
+add gitignore file and write node_modules
+in backend package.json file add   "type": "module",
+create index.js file
+
+**********************************************************************
+
+To run frontend use command: npm start
+To run backend use command: nodemon index.js
+
+*************Backend*************
+npm init -y 
+npm i express
+npm install express mongoose bcryptjs jsonwebtoken dotenv 
+npm install cors
+npm install validator
+npm i nodemailer
+
+
+*************Frontend*************
+npx create-react-app .
+npm i react-router-dom
+npm install react-icons
+npm install bootstrap 
+npm install bootstrap react-bootstrap 
+
+ 
